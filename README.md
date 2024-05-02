@@ -12,7 +12,7 @@ This python script converts ARW files to JPEG format using the camera's white ba
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.7+
 - rawpy
 - Pillow
 
