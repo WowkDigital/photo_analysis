@@ -9,7 +9,7 @@ class PhotoSelectorApp:
         self.root.title("Photo Selector")
         
         # Sets the size of the main application window.
-        self.root.geometry('600x350')  
+        self.root.geometry('700x350')  
         self.folder_path = None
         self.ids = []
         self.destination_folder = None
