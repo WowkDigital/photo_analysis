@@ -90,7 +90,7 @@ class PhotoSelectorApp:
             messagebox.showerror("Error", "No folder has been set up yet.")
 
     def clear_entry(self, event):
-        """Clears the default text in the entry widget when it gains focus."""
+        """Clears the default Text in the entry widget when it gains focus."""
         if self.id_entry.get() == self.default_entry_text:
             self.id_entry.delete(0, tk.END)
 
